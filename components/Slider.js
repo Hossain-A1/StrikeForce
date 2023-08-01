@@ -4,7 +4,7 @@ import { useState } from "react";
 const slideData = [
   {
     id: 1,
-    src: "https://images.pexels.com/photos/6455245/pexels-photo-6455245.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    src: "https://images.pexels.com/photos/10752027/pexels-photo-10752027.jpeg?auto=compress&cs=tinysrgb&w=600",
     headline: "Defend Yourself Against Any Attack with Krav Maga",
     description:
       "Krav Maga is a self-defense system developed in Israel. It emphasizes instinctive movements, practical techniques, and realistic training scenarios. It is designed to teach people how to defend themselves in a variety of life-threatening situations. ",

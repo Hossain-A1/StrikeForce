@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navber = () => {
   return (
-    <header className="h-20   border-b ">
+    <header className="h-20   border-b bg-rose-700/70 text-gray-200">
       <div className="h-full w-full flex justify-around items-center">
         <nav className="nav-start">
           <Link href="/" className="link-item text-2xl font-semibold">
