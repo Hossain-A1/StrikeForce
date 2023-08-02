@@ -36,7 +36,7 @@ const Contact = () => {
       </div>
 
       {/* form here */}
-      <form className=" bg-rose-700/70 flex justify-center items-center -mt-10">
+      <form className=" flex justify-center items-center -mt-10">
         <div className=" ">
           <div className="data flex flex-col gap-5 items-center py-20 px-5">
           <h2 className="capitalize font-semibold text-2xl text-center text-white">contact us</h2>

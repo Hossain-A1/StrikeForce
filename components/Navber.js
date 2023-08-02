@@ -2,14 +2,14 @@ import Link from "next/link";
 
 const Navber = () => {
   return (
-    <header className="h-20   border-b bg-rose-700/70 text-gray-200">
+    <header className="h-20   border-b">
       <div className="h-full w-full flex justify-around items-center">
         <nav className="nav-start">
           <Link href="/" className="link-item text-2xl font-semibold">
             StrikeForce
           </Link>
         </nav>
-        <nav className="nav-middle font-medium">
+        <nav className="nav-middle">
           <ul className="flex gap-5 capitalize">
             <li>
               <Link href="/" className="link-item">

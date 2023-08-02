@@ -23,7 +23,7 @@ const Footer = () => {
     <a className="link link-hover">Jobs</a> 
   </div> 
     </div>
-  <div className="mt-5"><p className="text-center text-light/40">Copyright © 2023 - All rights reserved by ASOS Industries</p></div>
+  <div className="mt-5"><p className="text-center text-light/40">Copyright © 2023 - All rights reserved by StrikeForce Industries</p></div>
   
     </footer>
   )
