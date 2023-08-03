@@ -32,7 +32,7 @@ const Navber = () => {
               </Link>
             </li>
             <li>
-              <Link href="/about-us" className="link-item">
+              <Link href="/aboutus" className="link-item">
               about us
               </Link>
             </li>
@@ -42,7 +42,7 @@ const Navber = () => {
               </Link>
             </li>
             <li>
-              <Link href="/contact-us" className="link-item">
+              <Link href="/contactus" className="link-item">
               contact us
               </Link>
             </li>
