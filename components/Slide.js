@@ -11,7 +11,7 @@ const Slide = ({ img }) => {
         {img.headline}{" "}
       </h2>
       <p className="text-gray-200 text-sm text-center w-3/5 ">{img.description}</p>
-      <Button href='/contact-us' color="dark" placeholder='Get started'/>
+      <Button href='/contactus' color="dark" placeholder='Get started'/>
      </div>
       <div className="overlay absolute top-0 left-0 right-0 bottom-0 bg-rose-700/40 z-[20]"></div>
      

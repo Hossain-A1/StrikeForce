@@ -1,4 +1,4 @@
-"use client"
+
 
 import { IoLocationSharp } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";

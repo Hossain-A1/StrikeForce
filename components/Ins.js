@@ -9,6 +9,7 @@ const Ins = ({instructor}) => {
         <div className="arts-image w-[17rem] h-[20rem] p-0">
               <Image
                 src={instructor.src}
+                alt="instructor image"
                 priority
                 width={500}
                 height={400}

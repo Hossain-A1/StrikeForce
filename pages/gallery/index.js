@@ -11,8 +11,8 @@ const Gallery = () => {
       </div>
 
       <div className="gallery-data flex flex-wrap justify-between items-center gap-5 py-10">
-        {data.map((galleryImg) => (
-          <GalleryPhoto key={galleryImg.id} galleryImg={galleryImg} />
+        {data && data.map((gallery) => (
+          <GalleryPhoto key={gallery.id} galleryImg={gallery} />
         ))}
       </div>
     </div>

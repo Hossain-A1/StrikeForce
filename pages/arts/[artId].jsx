@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 
 
-const artDetails = () => {
+const ArtDetails = () => {
   const router =useRouter()
   const query = router.query.artId
  const singleArt =  artsData.length > 0 && artsData.filter((art) => art.id == query);
@@ -31,4 +31,4 @@ const artDetails = () => {
   )
 }
 
-export default artDetails
+export default ArtDetails

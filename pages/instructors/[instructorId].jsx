@@ -4,7 +4,7 @@ import { instructorsData } from "@/utils/instructorsData";
 import Image from "next/image";
 import { useRouter } from "next/router";
 
-const instructorDetails = () => {
+const InstructorDetails = () => {
   const router = useRouter();
   const query = router.query.instructorId;
   const instructors =
@@ -61,4 +61,4 @@ const instructorDetails = () => {
   );
 };
 
-export default instructorDetails;
+export default InstructorDetails;
