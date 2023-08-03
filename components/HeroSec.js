@@ -1,6 +1,6 @@
-import { classesData } from "../utils/classesData";
 import SectionHeadline from "./SectionHeadline";
 import Classes from "./Classes";
+import { classesData } from "@/utils/classesData";
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
         />
       </div>
       <div className='classes flex justify-between items-center gap-10 section-padding '>
-        {classesData.map((cls) => [<Classes cls={cls} key={cls.id} />])}
+        { classesData.map((cls) => [<Classes cls={cls} key={cls.id} />])}
       </div>
     </div>
   );
