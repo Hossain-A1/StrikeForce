@@ -8,12 +8,12 @@ const buttonVariance = cva(
   {
     variants: {
       color: {
-        green: "bg-green-700 text-light hover:bg-accent1/90",
+        rose: "bg-rose-700 text-white hover:bg-rose-700/90",
         dark: "bg-gray-700 text-white hover:bg-gray-700/90",
         ghost:
-          "bg-transparent border w-full text-center text-gray-700 hover:bg-gray-500/10",
+          "bg-transparent border w-full text-center  text-gray-700 hover:bg-gray-500/10",
         transparent:
-          "bg-transparent border rounded-lg w-full text-center text-gray-700 hover:bg-gray-500/10",
+          "bg-transparent border font-semibold rounded-lg w-full text-center text-gray-700 hover:bg-gray-500/10",
       },
     },
     defaultVariants: {

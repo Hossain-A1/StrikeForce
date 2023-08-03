@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import SectionHeadline from "@/components/SectionHeadline";
 import { instructorsData } from "@/utils/instructorsData";
 import Image from "next/image";
@@ -40,7 +41,7 @@ const instructorDetails = () => {
               {instructor.description}
             </p>
           </div>
-          <div className="all arts">
+          <div className="all arts flex flex-col gap-5 justify-center text-center">
             <SectionHeadline h2="This instructor has been trained in a variety of martial arts." />
 
  {
@@ -50,9 +51,12 @@ const instructorDetails = () => {
  }
 
 
+<Button href="/contact-us" color="rose" placeholder="Contact"/>
           </div>
         </div>
       ))}
+
+
     </div>
   );
 };

@@ -7,7 +7,7 @@ import { MdMarkEmailRead } from "react-icons/md";
 import Button from "@/components/Button";
 const Contact = () => {
   return (
-    <div className="wrapper section-padding relative min-h-screen ">
+    <div className="wrapper section-padding relative min-h-screen z-[5]">
       <div className="details grid lg:grid-cols-4 col-span-1 gap-5 z-[30]">
         <div  className="office bg-light shadow-lg rounded flex flex-col items-center text-center gap-5 p-5">
           <IoLocationSharp className="text-4xl font-bold text-green-700" />
@@ -36,8 +36,8 @@ const Contact = () => {
       </div>
 
       {/* form here */}
-      <form className=" flex justify-center items-center -mt-10">
-        <div className=" ">
+      <form className=" flex justify-center items-center  z-[10] bg-rose-700/70 mt-5">
+        <div className="z-[60] ">
           <div className="data flex flex-col gap-5 items-center py-20 px-5">
           <h2 className="capitalize font-semibold text-2xl text-center text-white">contact us</h2>
             <input

@@ -19,7 +19,7 @@ const Ins = ({instructor}) => {
               
               <h2 className="capitalize font-semibold">{instructor.name}</h2>
               <span className="text-lg font-medium capitalize text-yellow-700">instructor</span>
-              <p className="text-gray-600 w-3/5 text-center">{instructor.description.substring(0,50)}...</p>
+              <p className="text-gray-600 w-3/5 text-center">{instructor.description.substring(0,45)}...</p>
             <Button href={`/instructors/${instructor?.id}`} color='dark' placeholder={instructor.btn}/>
             </div>
         </div>
