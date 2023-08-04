@@ -43,17 +43,17 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Enter your name"
-              className="py-3 px-6 bg-gray-50 rounded-lg outline-none border-2 focus:border-green-700 duration-300 w-[20rem]"
+              className="py-3 px-6 bg-gray-50 rounded-lg outline-none border-2 focus:border-green-700 duration-300 w-[30rem]"
             />
             <input
               type="text"
               placeholder="Enter a valid email address"
-              className="py-3 px-6 bg-gray-50 rounded-lg outline-none border-2 focus:border-green-700 duration-300  w-[20rem]"
+              className="py-3 px-6 bg-gray-50 rounded-lg outline-none border-2 focus:border-green-700 duration-300  w-[30rem]"
             />
             <textarea cols={10} rows={5}
               type="text"
               placeholder="Type your message"
-              className=" bg-gray-50 px-6 py-3 resize-none rounded-lg outline-none border-2 focus:border-green-700 duration-300 h-[10rem] w-[20rem]"
+              className=" bg-gray-50 px-6 py-3 resize-none rounded-lg outline-none border-2 focus:border-green-700 duration-300 h-[10rem] w-[30rem]"
             />
             <Button href="#" color='transparent' placeholder="Submit"/>
           </div>

@@ -14,14 +14,14 @@ const InstructorDetails = () => {
     <div className='wraper section-padding'>
       {instructors.map((instructor) => (
         <div key={instructor.id} className='flex flex-col items-center gap-5'>
-          <div className='arts-image w-[80vw] h-[80vh]'>
+       <div className='instructor-image w-[80vw] h-[80vh]'>
             <Image
               src={instructor.src}
-              alt={instructor.art}
+              alt='boxing-image'
               priority
               width={500}
               height={400}
-              className='h-full w-full object-contain'
+              className='h-full w-full object-cover'
             />
           </div>
           <div className='flex flex-col gap-5 items-center '>
@@ -36,14 +36,20 @@ const InstructorDetails = () => {
               favourite: {instructor.art}
             </h2>
 
-            <p className='text-gray-500 w-2/5 tracking-wider italic'>
+            <p className='text-gray-500 w-3/5 tracking-wider italic'>
               {instructor.description}
             </p>
           </div>
           <div className='all arts flex flex-col gap-5 justify-center text-center'>
             <SectionHeadline h2='This instructor has been trained in a variety of martial arts.' />
 
-            {instructor.arts.flatMap((art) => [art])}
+            {instructor.arts.map((art,i) =>(
+              <div key={i} className="flex gap-5">
+                <ol className="list-disc text-yellow-700 px-5 capitalize">
+                  <li className="">{art}</li>
+                </ol>
+              </div>
+            ))}
 
             <Button href='/contactus' color='rose' placeholder='Contact' />
           </div>

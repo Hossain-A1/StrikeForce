@@ -1,7 +1,7 @@
 export const instructorsData = [
   {
     id: 1,
-    src: "https://images.pexels.com/photos/8611966/pexels-photo-8611966.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://images.pexels.com/photos/7991192/pexels-photo-7991192.jpeg?auto=compress&cs=tinysrgb&w=600",
     art: "Boxing",
     btn: "Read more",
     description:
@@ -9,12 +9,12 @@ export const instructorsData = [
     admit: "",
     name:"rico",
     headline:"This instructor has been trained in a variety of martial arts.",
-    arts:["judo","krva maga","karate","akido"]
+    arts:["boxing","Sumo","judo","jeet kune do",,"krva maga","karate","akido","Taekwondo","Wing Chun"]
 
   },
   {
     id: 2,
-    src: "https://images.pexels.com/photos/6765040/pexels-photo-6765040.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://images.pexels.com/photos/8611253/pexels-photo-8611253.jpeg?auto=compress&cs=tinysrgb&w=600",
     art: "Kung-fu",
     btn: "Read more",
     description:
@@ -22,11 +22,11 @@ export const instructorsData = [
     admit: "",
     name:"nordan thik",
     headline:"This instructor has been trained in a variety of martial arts.",
-    arts:["judo","krva maga","karate","akido"]
+    arts:["kung-fu","Wing Chun","judo","krva maga","karate","Jeet Kune Do","akido","Wushu","Capoeira","Muay Thai","Hapkido","Kickboxing",,"Brazilian Jiu "]
   },
   {
     id: 3,
-    src: "https://images.pexels.com/photos/15545731/pexels-photo-15545731/free-photo-of-two-men-practicing-jiu-jitsu.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://images.pexels.com/photos/14845608/pexels-photo-14845608.jpeg?auto=compress&cs=tinysrgb&w=600",
     art: "karate",
     btn: "Read more",
     description:
@@ -34,30 +34,30 @@ export const instructorsData = [
     admit: "",
     name:"smith",
     headline:"This instructor has been trained in a variety of martial arts.",
-    arts:["judo","krva maga","karate","akido"]
+    arts:["judo","Jeet Kune Do","krva maga","sambo","karate","akido","sumo","wing chun","wushu"]
   },
   {
     id: 4,
-    src: "https://images.pexels.com/photos/7045674/pexels-photo-7045674.jpeg?auto=compress&cs=tinysrgb&w=600",
-    art: "Kendo",
+    src: "https://images.pexels.com/photos/8611292/pexels-photo-8611292.jpeg?auto=compress&cs=tinysrgb&w=600",
+    art: "Akido",
     btn: "Read more",
     description:
       "Kendo is a martial art originating from Japan that focuses on striking techniques with wooden swords. The practice of Kendo is an important part of Japanese culture and is meant to develop both physical and mental discipline, as well as improve one’s strength and agility. Kendo is practiced by both men and women, and there are many competitions and tournaments held around the world for practitioners to test their skills. ",
     admit: "",
     name:"turika",
     headline:"This instructor has been trained in a variety of martial arts.",
-    arts:["judo","krva maga","karate","akido"]
+    arts:["Taekwondo","judo","krva maga","karate","akido","sumo","Kalaripayattu"]
   },
   {
     id: 5,
-    src: "https://images.pexels.com/photos/8611376/pexels-photo-8611376.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://images.pexels.com/photos/7045465/pexels-photo-7045465.jpeg?auto=compress&cs=tinysrgb&w=600",
     art: "Krav Maga",
     btn: "Read more",
     description:
       "Krav Maga is an Israeli martial art that focuses on teaching self-defense in a realistic and practical way. It utilizes a combination of striking, grappling, and weapons techniques to prepare students for real-world self-defense scenarios. It emphasizes using natural body movements and reflexive responses to defend against attacks, and provides a comprehensive self-defense system that can be used by people of all ages and fitness levels.",
     admit: "",
-    name:"antoni",
+    name:"musa",
     headline:"This instructor has been trained in a variety of martial arts.",
-    arts:["judo","krva maga","karate","akido"]
+    arts:["judo","krva maga","karate","akido","karate","akido","sumo","wing chun","wushu"]
   },
 ];
