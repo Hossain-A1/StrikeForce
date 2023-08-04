@@ -24,7 +24,8 @@ const InstructorDetails = () => {
               className='h-full w-full object-cover'
             />
           </div>
-          <div className='flex flex-col gap-5 items-center '>
+         
+            <div className=" flex flex-col items-center">
             <h2 className='text-lg uppercase font-semibold'>
               {instructor.name}
             </h2>
@@ -39,7 +40,8 @@ const InstructorDetails = () => {
             <p className='text-gray-500 w-3/5 tracking-wider italic'>
               {instructor.description}
             </p>
-          </div>
+            </div>
+            <div className=' flex flex-col items-center gap-5'>
           <div className='all arts flex flex-col gap-5 justify-center text-center'>
             <SectionHeadline h2='This instructor has been trained in a variety of martial arts.' />
 
@@ -52,6 +54,8 @@ const InstructorDetails = () => {
             ))}
 
             <Button href='/contactus' color='rose' placeholder='Contact' />
+          </div>
+
           </div>
         </div>
       ))}

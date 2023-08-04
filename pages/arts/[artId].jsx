@@ -22,7 +22,7 @@ const ArtDetails = () => {
               className='h-full w-full object-cover'
             />
           </div>
-          <p className='text-gray-500 w-2/5 tracking-wider italic'>
+          <p className='text-gray-500 w-4/5 tracking-wider italic'>
             {art.description}
           </p>
         </div>

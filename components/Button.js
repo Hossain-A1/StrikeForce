@@ -17,7 +17,7 @@ const buttonVariance = cva(
       },
     },
     defaultVariants: {
-      color: "green",
+      color: "dark",
     },
   }
 );
