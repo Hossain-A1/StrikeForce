@@ -1,8 +1,13 @@
+import Faqs from "@/components/Faqs";
 
-const FAQ = () => {
+
+
+const Faq = () => {
   return (
-    <div>FAQ</div>
-  )
-}
+    <div className="min-h-screen">
+    <Faqs/>
+    </div>
+  );
+};
 
-export default FAQ
+export default Faq;
