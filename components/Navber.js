@@ -39,7 +39,7 @@ const Navber = () => {
             </li>
             <li>
               <Link href='/faq' className='link-item'>
-                faq
+                FAQ
               </Link>
             </li>
             <li>

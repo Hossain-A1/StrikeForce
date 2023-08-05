@@ -8,6 +8,7 @@ import Button from "@/components/Button";
 const Contact = () => {
   return (
     <div className="wrapper section-padding relative min-h-screen z-[5]">
+      
       <div className="details grid lg:grid-cols-4 col-span-1 gap-5 z-[30]">
         <div  className="office bg-light shadow-lg rounded flex flex-col items-center text-center gap-5 p-5">
           <IoLocationSharp className="text-4xl font-bold text-green-700" />

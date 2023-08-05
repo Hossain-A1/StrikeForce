@@ -1,11 +1,13 @@
 import SectionHeadline from "@/components/SectionHeadline";
 import Image from "next/image";
-import Instructors from "../instructors";
 
 const About = () => {
   return (
     <div className='wrapper section-padding'>
+   <div className="space-y-5">
+   <h1 className="uppercase text-2xl font-semibold text-center underline underline-offset-4">about us</h1>
       <SectionHeadline h2='StrikeForce An Unstoppable Force in the Martial Arts World!' />
+   </div>
 
       <div className='h-full w-full py-10'>
         <Image
@@ -38,7 +40,7 @@ const About = () => {
           also features a variety of multiplayer modes for competitive play.{" "}
         </p>
       </div>
-      <Instructors />
+
     </div>
   );
 };
